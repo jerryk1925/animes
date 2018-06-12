@@ -1030,12 +1030,6 @@ p.bold {
   z-index: 9000000;
 }
 
-@media only screen and (max-width: 768px) {
-  .col:hover {
-    position: static;
-  }
-}
-
 svg {
   position: relative;
   z-index: -1;

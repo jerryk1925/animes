@@ -756,9 +756,6 @@ p.bold {
 .col:hover{
     position: relative;
     z-index: 9000000;
-    @media only screen and (max-width: 768px) {
-        position: static;
-    } 
 }
 // .stanfourtwo:hover{
 //     position: relative;
