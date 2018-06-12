@@ -148,11 +148,11 @@ p.bold {
     box-shadow: 0 0 2px rgba(0,0,0,0.5);
     padding: 10px;
     text-align: left;
-    @media only screen and (max-width: 768px) {
-        text-align: center;
-        background: none;
-        padding: 5px;
-    } 
+    // @media only screen and (max-width: 768px) {
+    //     text-align: center;
+    //     background: none;
+    //     padding: 5px;
+    // } 
 }
 .style5 .tooltip {
     background: #1E252B;
@@ -172,9 +172,9 @@ p.bold {
 
 .tooltip .tooltip-arrow{
     border-color: #F39416;
-    @media only screen and (max-width: 768px) {
-        display: none;
-    } 
+    // @media only screen and (max-width: 768px) {
+    //     display: none;
+    // } 
 }
 .style5 .tooltip .tooltip-arrow {
     border-color: #1E252B;
@@ -238,7 +238,7 @@ p.bold {
     font-family: "ProximaNova-Bold";
     @media only screen and (max-width: 768px) {
         width: 100px;
-     }
+    }
 }
 
 .configuration{

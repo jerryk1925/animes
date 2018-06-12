@@ -182,14 +182,6 @@ p.bold {
   text-align: left;
 }
 
-@media only screen and (max-width: 768px) {
-  .tooltip {
-    text-align: center;
-    background: none;
-    padding: 5px;
-  }
-}
-
 .style5 .tooltip {
   background: #1E252B;
   color: #FFFFFF;
@@ -209,12 +201,6 @@ p.bold {
 
 .tooltip .tooltip-arrow {
   border-color: #F39416;
-}
-
-@media only screen and (max-width: 768px) {
-  .tooltip .tooltip-arrow {
-    display: none;
-  }
 }
 
 .style5 .tooltip .tooltip-arrow {
