@@ -95,7 +95,7 @@
     color: white;
 }
 .link-anchor {
-//   position: relative;
+  position: relative;
   width: 0;
   font-size: .8em;
   opacity: 0;
@@ -131,7 +131,7 @@ p.bold {
 .rel {
     width: 30%;
     margin: 0 auto;
-    // position: relative;
+    position: relative;
     text-align: center;
     padding: 20px;
     border-style: dotted;
@@ -140,7 +140,7 @@ p.bold {
 }
 
 .tooltip {
-    // position: absolute;
+    position: absolute;
     background: #F39416;
     color: black;
     max-width: 400px;
@@ -166,7 +166,7 @@ p.bold {
     width: 0;
     height: 0;
     border-style: solid;
-    // position: absolute;
+    position: absolute;
     margin: 5px;
 }
 
@@ -238,7 +238,7 @@ p.bold {
     font-family: "ProximaNova-Bold";
     @media only screen and (max-width: 768px) {
         width: 100px;
-    }
+     }
 }
 
 .configuration{
