@@ -8,6 +8,14 @@
   src: url(font/ProximaNova-Regular.ttf);
 }
 
+#orefirstanims:hover .st0 {
+  stroke: white;
+}
+
+#orefirstanims:hover .st1 {
+  stroke: #F39416;
+}
+
 .svg-content:hover .st0 {
   stroke: white;
 }
@@ -358,6 +366,7 @@ p.bold {
 
 @media only screen and (max-width: 720px) {
   .configuration-title {
+    text-align: center;
     font-size: 18px;
     -moz-transform: matrix(0.99885, 0, 0, 0.99075, 0, 0);
     -webkit-transform: matrix(0.99885, 0, 0, 0.99075, 0, 0);
@@ -407,6 +416,7 @@ p.bold {
     display: flex;
     flex-direction: column;
     margin-left: 50px;
+    margin: 0 auto;
     width: 100px;
   }
 }
@@ -758,7 +768,9 @@ p.bold {
 
 @media only screen and (max-width: 720px) {
   .new {
-    display: block;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     margin-left: 25px;
     margin-top: 50px;
   }
