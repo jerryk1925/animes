@@ -515,10 +515,8 @@ p.bold {
         }
         @media only screen and (max-width: 720px) {
             flex-direction: column;
+            margin-left: 0px;
         }
-
-    }
-    &-col{
 
     }
 }
@@ -643,6 +641,9 @@ p.bold {
     display: flex;
     align-items: center;
     position: relative;
+    @media only screen and (max-width: 768px) {
+        position: static;
+    }
     &-relbot{
         position: relative;
         bottom: 341px;
@@ -755,6 +756,9 @@ p.bold {
 .col:hover{
     position: relative;
     z-index: 9000000;
+    @media only screen and (max-width: 768px) {
+        position: static;
+    } 
 }
 // .stanfourtwo:hover{
 //     position: relative;
@@ -782,43 +786,76 @@ fill-opacity: 1;
 #twentythreescroll:hover{
     z-index: 100;
     position: relative;
+    @media only screen and (max-width: 768px) {
+        position: static;
+    } 
 }
 #rightfourscroll:hover{
     z-index: 100;
     position: relative;
+    @media only screen and (max-width: 768px) {
+        position: static;
+    } 
 }
 #rightetwelvescroll:hover{
     z-index: 100;
     position: relative;
+    @media only screen and (max-width: 768px) {
+        position: static;
+    } 
 }
 #eightscroll:hover{
     z-index: 100;
     position: relative;
+    @media only screen and (max-width: 768px) {
+        position: static;
+    } 
 }
 #tenscroll:hover{
     z-index: 100;
     position: relative;
+    @media only screen and (max-width: 768px) {
+        position: static;
+    } 
 }
 #twoscroll:hover{
     z-index: 100;
     position: relative;
+    @media only screen and (max-width: 768px) {
+        position: static;
+    } 
 }
 #threescroll:hover{
     position: relative;
     z-index: 100;
+    @media only screen and (max-width: 768px) {
+        position: static;
+    } 
 }
 #fifteenscroll:hover{
     z-index: 200;
+    @media only screen and (max-width: 768px) {
+        position: static;
+    } 
 }
 #seveteenscroll:hover{
     z-index: 200;
+    @media only screen and (max-width: 768px) {
+        position: static;
+    } 
 }
 #rightsixscroll:hover{
     z-index: 200;
+    @media only screen and (max-width: 768px) {
+        position: static;
+    } 
 }
 .first:hover{
     position: relative;
     z-index:999999;
+    @media only screen and (max-width: 768px) {
+        position: static;
+    } 
 }
 #thirteenthscroll{
     @media only screen and (max-width: 720px) {
