@@ -149,6 +149,7 @@ p.bold {
     padding: 10px;
     text-align: left;
     @media only screen and (max-width: 768px) {
+        text-align: center;
         background: none;
         padding: 5px;
     } 

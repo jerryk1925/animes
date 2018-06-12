@@ -184,6 +184,7 @@ p.bold {
 
 @media only screen and (max-width: 768px) {
   .tooltip {
+    text-align: center;
     background: none;
     padding: 5px;
   }
