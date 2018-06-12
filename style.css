@@ -697,7 +697,7 @@ p.bold {
 @media only screen and (max-width: 720px) {
   .three-row {
     flex-direction: column;
-    margin-left: 0px;
+    margin-left: 0;
   }
 }
 
@@ -868,12 +868,6 @@ p.bold {
   display: flex;
   align-items: center;
   position: relative;
-}
-
-@media only screen and (max-width: 768px) {
-  .col {
-    position: static;
-  }
 }
 
 .col-relbot {
@@ -1050,21 +1044,9 @@ svg {
   position: relative;
 }
 
-@media only screen and (max-width: 768px) {
-  #twentythreescroll:hover {
-    position: static;
-  }
-}
-
 #rightfourscroll:hover {
   z-index: 100;
   position: relative;
-}
-
-@media only screen and (max-width: 768px) {
-  #rightfourscroll:hover {
-    position: static;
-  }
 }
 
 #rightetwelvescroll:hover {
@@ -1072,21 +1054,9 @@ svg {
   position: relative;
 }
 
-@media only screen and (max-width: 768px) {
-  #rightetwelvescroll:hover {
-    position: static;
-  }
-}
-
 #eightscroll:hover {
   z-index: 100;
   position: relative;
-}
-
-@media only screen and (max-width: 768px) {
-  #eightscroll:hover {
-    position: static;
-  }
 }
 
 #tenscroll:hover {
@@ -1094,21 +1064,9 @@ svg {
   position: relative;
 }
 
-@media only screen and (max-width: 768px) {
-  #tenscroll:hover {
-    position: static;
-  }
-}
-
 #twoscroll:hover {
   z-index: 100;
   position: relative;
-}
-
-@media only screen and (max-width: 768px) {
-  #twoscroll:hover {
-    position: static;
-  }
 }
 
 #threescroll:hover {
@@ -1116,51 +1074,21 @@ svg {
   z-index: 100;
 }
 
-@media only screen and (max-width: 768px) {
-  #threescroll:hover {
-    position: static;
-  }
-}
-
 #fifteenscroll:hover {
   z-index: 200;
-}
-
-@media only screen and (max-width: 768px) {
-  #fifteenscroll:hover {
-    position: static;
-  }
 }
 
 #seveteenscroll:hover {
   z-index: 200;
 }
 
-@media only screen and (max-width: 768px) {
-  #seveteenscroll:hover {
-    position: static;
-  }
-}
-
 #rightsixscroll:hover {
   z-index: 200;
-}
-
-@media only screen and (max-width: 768px) {
-  #rightsixscroll:hover {
-    position: static;
-  }
 }
 
 .first:hover {
   position: relative;
   z-index: 999999;
-}
-
-@media only screen and (max-width: 768px) {
-  .first:hover {
-    position: static;
-  }
 }
 
 @media only screen and (max-width: 720px) {
