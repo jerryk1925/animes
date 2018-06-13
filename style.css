@@ -1131,3 +1131,33 @@ svg {
   left: 0;
   bottom: -15px;
 }
+
+@media all and (-ms-high-contrast: none) {
+  *::-ms-backdrop, #onescroll {
+    top: 25px;
+  }
+}
+
+@media all and (-ms-high-contrast: none) {
+  *::-ms-backdrop, #fivescroll {
+    top: -25px;
+  }
+}
+
+@media all and (-ms-high-contrast: none) {
+  *::-ms-backdrop, #ieone {
+    top: -50px;
+  }
+}
+
+@media all and (-ms-high-contrast: none) {
+  *::-ms-backdrop, #ninescroll {
+    top: -70px;
+  }
+}
+
+@media all and (-ms-high-contrast: none) {
+  *::-ms-backdrop, #ietwo {
+    top: -70px;
+  }
+}
