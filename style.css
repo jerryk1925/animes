@@ -442,8 +442,8 @@ p.bold {
 @media only screen and (max-width: 720px) {
   .first-name--rel {
     position: relative;
-    bottom: -60px;
-    right: -10px;
+    bottom: -55px;
+    right: -25px;
   }
 }
 
@@ -703,6 +703,7 @@ p.bold {
   .three-row {
     flex-direction: column;
     margin-left: 0;
+    margin-top: 0;
   }
 }
 
@@ -867,6 +868,7 @@ p.bold {
 @media only screen and (max-width: 720px) {
   .row-new {
     display: flex;
+    height: 340px;
   }
 }
 
@@ -1330,4 +1332,9 @@ svg {
   -sand-transform: translateY(0px);
   -webkit-transform: translateY(0px);
   transition-duration: 1s;
+}
+
+#twentythreescroll {
+  top: -12px;
+  position: relative;
 }

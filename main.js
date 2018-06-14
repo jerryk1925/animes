@@ -606,7 +606,7 @@ document.querySelector('#rightfouranim').onmouseover = function(e) {
   }
 };
 var linerepeirDuration = anime({
-  targets: '#righteightanim #righteight',
+  targets: '#rightanims',
   easing: 'easeInOutSine',
   rotate:360,
   duration: 1000,
