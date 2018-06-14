@@ -419,9 +419,10 @@ p.bold {
   .first-new {
     display: flex;
     flex-direction: column;
-    margin-left: 50px;
-    margin: 0 auto;
-    width: 100px;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    right: 70px;
   }
 }
 
@@ -434,7 +435,7 @@ p.bold {
 @media only screen and (max-width: 720px) {
   .first-name {
     font-size: 14px;
-    margin-left: 35px;
+    margin-left: 0px;
   }
 }
 
@@ -733,6 +734,7 @@ p.bold {
   .img-logo {
     width: 74px;
     height: 74px;
+    margin-right: 130px;
   }
 }
 
@@ -776,7 +778,7 @@ p.bold {
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin-left: 25px;
+    margin-left: 0;
     margin-top: 50px;
   }
 }
@@ -1158,6 +1160,174 @@ svg {
 
 @media all and (-ms-high-contrast: none) {
   *::-ms-backdrop, #ietwo {
-    top: -70px;
+    top: -100px;
   }
+}
+
+@media all and (-ms-high-contrast: none) {
+  *::-ms-backdrop, #thirteenthscroll {
+    top: -130px;
+  }
+}
+
+@media all and (-ms-high-contrast: none) {
+  *::-ms-backdrop, #fourteenthscroll {
+    top: -130px;
+  }
+}
+
+@media all and (-ms-high-contrast: none) {
+  *::-ms-backdrop, #iethree {
+    top: -130px;
+  }
+}
+
+@media all and (-ms-high-contrast: none) {
+  *::-ms-backdrop, #twentytwoscroll {
+    top: -130px;
+  }
+}
+
+@media all and (-ms-high-contrast: none) {
+  *::-ms-backdrop, #twentythreescroll {
+    top: -130px;
+    position: relative;
+  }
+}
+
+@media all and (-ms-high-contrast: none) {
+  *::-ms-backdrop, #rightonescroll {
+    top: 25px;
+  }
+}
+
+@media all and (-ms-high-contrast: none) {
+  *::-ms-backdrop, #rightfivescroll {
+    top: -25px;
+  }
+}
+
+@media all and (-ms-high-contrast: none) {
+  *::-ms-backdrop, #iefour {
+    top: -55px;
+  }
+}
+
+@media all and (-ms-high-contrast: none) {
+  *::-ms-backdrop, #rightninescroll {
+    top: -130px;
+  }
+}
+
+@media all and (-ms-high-contrast: none) {
+  *::-ms-backdrop, #rightfiveanim {
+    top: -180px;
+  }
+}
+
+@media all and (-ms-high-contrast: none) {
+  *::-ms-backdrop, #rightfifteenscroll {
+    top: -510px;
+  }
+}
+
+@media all and (-ms-high-contrast: none) {
+  *::-ms-backdrop, #rightelevenscroll {
+    top: -175px;
+  }
+}
+
+@media all and (-ms-high-contrast: none) {
+  *::-ms-backdrop, #rightetwelvescroll {
+    top: -175px;
+    position: relative;
+  }
+}
+
+@media all and (-ms-high-contrast: none) {
+  *::-ms-backdrop, #rightthirteenthscroll {
+    top: -175px;
+  }
+}
+
+@media all and (-ms-high-contrast: none) {
+  *::-ms-backdrop, #rightfourteenthscroll {
+    top: -170px;
+    position: relative;
+  }
+}
+
+#qwe1 {
+  transform: translateY(30px);
+  -ms-transform: translateY(30px);
+  -sand-transform: translateY(30px);
+  -webkit-transform: translateY(30px);
+}
+
+#qwe2 {
+  transform: translateY(30px);
+  -ms-transform: translateY(30px);
+  -sand-transform: translateY(30px);
+  -webkit-transform: translateY(30px);
+}
+
+#qwe3 {
+  transform: translateY(30px);
+  -ms-transform: translateY(30px);
+  -sand-transform: translateY(30px);
+  -webkit-transform: translateY(30px);
+}
+
+#qwe4 {
+  transform: translateY(30px);
+  -ms-transform: translateY(30px);
+  -sand-transform: translateY(30px);
+  -webkit-transform: translateY(30px);
+}
+
+#qwe5 {
+  transform: translateY(30px);
+  -ms-transform: translateY(30px);
+  -sand-transform: translateY(30px);
+  -webkit-transform: translateY(30px);
+}
+
+#rightoneanim:hover #qwe1 {
+  transform: translateY(0px);
+  -ms-transform: translateY(0px);
+  -sand-transform: translateY(0px);
+  -webkit-transform: translateY(0px);
+  transition-duration: 1s;
+}
+
+#rightoneanim:hover #qwe2 {
+  transform: translateY(0px);
+  -ms-transform: translateY(0px);
+  -sand-transform: translateY(0px);
+  -webkit-transform: translateY(0px);
+  transition-duration: 1s;
+}
+
+#rightoneanim:hover #qwe3 {
+  transform: translateY(0px);
+  -ms-transform: translateY(0px);
+  -sand-transform: translateY(0px);
+  -webkit-transform: translateY(0px);
+  transition-duration: 1s;
+}
+
+#rightoneanim:hover #qwe4 {
+  transform: translateY(0px);
+  -ms-transform: translateY(0px);
+  -sand-transform: translateY(0px);
+  -webkit-transform: translateY(0px);
+  transition-duration: 1s;
+}
+
+#rightoneanim:hover #qwe5 {
+  transform: translateY(0px);
+  -ms-transform: translateY(0px);
+  -sand-transform: translateY(0px);
+  -webkit-transform: translateY(0px);
+  transition-duration: 1s;
 }

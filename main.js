@@ -68,6 +68,10 @@ const lom= document.querySelector('.lom');
 const first_new= document.querySelector('.first-new');
 const lom_tool= document.querySelector('.lom-tool');
 
+var g= document.querySelector('#qwe'),
+    transform= getComputedStyle(g).getPropertyValue('transform');
+g.setAttribute('transform', transform);
+
 const instanceLomTool= new Tooltip(lom_tool, {
   placement: 'right',
   title: "",
@@ -626,7 +630,7 @@ document.querySelector('#righteightanim').onmouseout = function(e) {
   } 
 };
 var oreFistDuration = anime({
-  targets: '#orefirstanim #orefirst',
+  targets: '.orefirstwrap',
   easing: 'easeInOutSine',
   rotate:360,
   duration: 4000,
@@ -650,7 +654,7 @@ document.querySelector('#orefirstanim').onmouseout = function(e) {
   } 
 };
 var oreFistSDuration = anime({
-  targets: '#orefirstanims #orefirsts',
+  targets: '.orefirstwrap',
   easing: 'easeInOutSine',
   rotate:360,
   duration: 4000,
@@ -768,3 +772,18 @@ document.querySelector('#sevenanim').onmouseout = function(e) {
 //     console.log('out')
 //   } 
 // };
+
+
+
+// var g= document.querySelector('#qwe'),
+//     transform= getComputedStyle(g).getPropertyValue('transform');
+
+// g.setAttribute('transform', transform);
+// var g= document.querySelector('#qwe'),
+//     transform= getComputedStyle(g).getPropertyValue('transform');
+
+// g.setAttribute('transform', transform);
+// var g= document.querySelector('#qwe'),
+//     transform= getComputedStyle(g).getPropertyValue('transform');
+
+// g.setAttribute('transform', transform);
