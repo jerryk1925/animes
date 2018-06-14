@@ -1136,6 +1136,11 @@ svg {
   bottom: -15px;
 }
 
+#twentythreescroll {
+  top: -12px;
+  position: relative;
+}
+
 @media all and (-ms-high-contrast: none) {
   *::-ms-backdrop, #onescroll {
     top: 25px;
@@ -1192,7 +1197,7 @@ svg {
 
 @media all and (-ms-high-contrast: none) {
   *::-ms-backdrop, #twentythreescroll {
-    top: -130px;
+    top: -144px;
     position: relative;
   }
 }
@@ -1229,7 +1234,7 @@ svg {
 
 @media all and (-ms-high-contrast: none) {
   *::-ms-backdrop, #rightfifteenscroll {
-    top: -510px;
+    top: -517px;
   }
 }
 
@@ -1254,7 +1259,7 @@ svg {
 
 @media all and (-ms-high-contrast: none) {
   *::-ms-backdrop, #rightfourteenthscroll {
-    top: -170px;
+    top: -172px;
     position: relative;
   }
 }
@@ -1332,9 +1337,4 @@ svg {
   -sand-transform: translateY(0px);
   -webkit-transform: translateY(0px);
   transition-duration: 1s;
-}
-
-#twentythreescroll {
-  top: -12px;
-  position: relative;
 }
