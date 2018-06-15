@@ -47,7 +47,7 @@ sr.reveal('.first-new',{duration:2000});
 
 const popper = document.querySelector('.tooltipone');
 const factory = document.querySelector('.factory');
-const domeny = document.querySelector('#fourscroll');
+const domeny = document.querySelector('#twoanim');
 const bake = document.querySelector('.bake');
 const dsp = document.querySelector('.dsp');
 const vacuumer = document.querySelector('.vacuumer');
