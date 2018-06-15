@@ -772,7 +772,9 @@ document.querySelector('#sevenanim').onmouseout = function(e) {
 //     console.log('out')
 //   } 
 // };
-
+if (/iPhone|iPad|iPod/.test(navigator.platform) && !window.MSStream) {
+  document.body.style.cursor = 'pointer'
+}
 
 
 // var g= document.querySelector('#qwe'),
