@@ -808,6 +808,10 @@ fill-opacity: 1;
     z-index: 100;
     position: relative;
 }
+#righttenscroll:hover{
+    z-index: 100;
+    position: relative;
+}
 #twoscroll:hover{
     z-index: 100;
     position: relative;
@@ -819,12 +823,13 @@ fill-opacity: 1;
 #fifteenscroll:hover{
     z-index: 200;
 }
-#seveteenscroll{
-    z-index: 200;
-    position: relative;
-}
+
 #seveteenscroll:hover{
     z-index: 200;
+}
+#twentyonescroll:hover{
+    z-index: 200;
+    position: relative;
 }
 #rightsixscroll:hover{
     z-index: 200;
@@ -842,6 +847,10 @@ fill-opacity: 1;
     @media only screen and (max-width: 720px) {
         padding-left: 90px;
     } 
+}
+#nineteenscroll:hover{
+    z-index: 200;
+    position: relative;
 }
 .line-ore{
     background: #606060;
@@ -925,7 +934,7 @@ fill-opacity: 1;
 }
 @media all and (-ms-high-contrast:none)
 {
-*::-ms-backdrop, #rightfiveanim{ top:-180px;  } 
+*::-ms-backdrop, #righttenscroll{ top:-180px;  } 
 }
 @media all and (-ms-high-contrast:none)
 {
@@ -1049,18 +1058,71 @@ fill-opacity: 1;
 //   transition-duration: 1s;
 // }
 .qwe1{
-    border: 1px solid  #434342; width: 72px;height: 72px;border-radius: 50%; display: flex; align-items: center; justify-content: center
+    border: 1px solid  #434342; width: 72px;height: 72px;border-radius: 50%; display: flex; align-items: center; justify-content: center;
+    @media only screen and (max-width: 720px) {
+        width: 50px;height: 50px;
+    } 
 }
 .qwe2{
     position: relative;
     z-index: -1;
     border: 1px solid  #F39416; width: 24px;height: 24px;border-radius: 50%;
     background: rgba(255, 255, 255, 0);
+    @media only screen and (max-width: 720px) {
+        width: 16px;height: 16px;
+    } 
+}
+.qwe4{
+    position: relative;
+    z-index: -1;
+    border: 1px solid  #F39416; width: 44px;height: 44px;border-radius: 50%;
+    background: rgba(255, 255, 255, 0);
+    @media only screen and (max-width: 720px) {
+        width: 31px;height: 31px;
+    } 
+}
+.qwe5{
+    position: relative;
+    z-index: -1;
+    border: 1px solid  #F39416; width: 33px;height: 33px;border-radius: 50%;
+    background: rgba(255, 255, 255, 0);
+    @media only screen and (max-width: 720px) {
+        width: 23px;height: 23px;
+    } 
+}
+.qwe6{
+    border: 1px solid  #434342; width: 92px;height: 92px;border-radius: 50%; display: flex; align-items: center; justify-content: center;
+    @media only screen and (max-width: 720px) {
+        width: 50px;height: 50px;
+    } 
+}
+.qwe7{
+    border: 1px solid  #F39416; width: 28px;height: 28px;border-radius: 50%; display: flex; align-items: center; justify-content: center;
+    @media only screen and (max-width: 720px) {
+        width: 50px;height: 50px;
+    } 
 }
 #seveteenscroll:hover  .qwe1{
     border: 1px solid  #F39416;
 }
 #seveteenscroll:hover  .qwe2{
     border: 1px solid  white;
-
+}
+#nineteenscroll:hover .qwe1{
+    border: 1px solid  #F39416;
+}
+#nineteenscroll:hover  .qwe4{
+    border: 1px solid  white;
+}
+#twentyonescroll:hover .qwe1{
+    border: 1px solid  #F39416;
+}
+#twentyonescroll:hover  .qwe5{
+    border: 1px solid  white;
+}
+#righttenscroll:hover  .qwe6{
+    border: 1px solid  #F39416;
+}
+#righttenscroll:hover  .qwe7{
+    border: 1px solid  white;
 }

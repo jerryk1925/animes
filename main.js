@@ -19,9 +19,9 @@ sr.reveal('#fifteenscroll',{duration:2000});
 sr.reveal('#sixteenscroll',{duration:2400});
 sr.reveal('#seveteenscroll',{duration:2800});
 sr.reveal('#eighteenscroll',{duration:3200});
-sr.reveal('#nineanim',{duration:3600});
+sr.reveal('#nineteenscroll',{duration:3600});
 sr.reveal('#twentyscroll',{duration:4000});
-sr.reveal('#twentyanim',{duration:4400});
+sr.reveal('#twentyonescroll',{duration:4400});
 sr.reveal('#twentytwoscroll',{duration:2000});
 sr.reveal('#twentythreescroll',{duration:2000});
 
@@ -34,7 +34,7 @@ sr.reveal('#rightsixscroll',{duration:2000});
 sr.reveal('#rightsevenscroll',{duration:2500});
 sr.reveal('#righteightscroll',{duration:3000});
 sr.reveal('#rightninescroll',{duration:2000});
-sr.reveal('#rightfiveanim',{duration:2000});
+sr.reveal('#righttenscroll',{duration:2000});
 sr.reveal('#rightelevenscroll',{duration:2000});
 sr.reveal('#rightetwelvescroll',{duration:2000});
 sr.reveal('#rightthirteenthscroll',{duration:2000});
@@ -57,20 +57,16 @@ const baketwo = document.querySelector('#rightfourscroll');
 const dsptwo = document.querySelector('#righttwoscroll');
 const calibr = document.querySelector('#fifteenscroll');
 const stanfour = document.querySelector('#seveteenscroll');
-const stanthree = document.querySelector('.stanthree');
-const staneight = document.querySelector('#nineanim');
+const stanthree = document.querySelector('#twentyonescroll');
+const staneight = document.querySelector('#nineteenscroll');
 const car = document.querySelector('#twentythreescroll');
 const mnls = document.querySelector('#righteightscroll');
-const stanfourtwo = document.querySelector('.stanfourtwo');
+const stanfourtwo = document.querySelector('#righttenscroll');
 const linerepeir = document.querySelector('#rightetwelvescroll');
 const cartwo= document.querySelector('#rightfourteenthscroll');
 const lom= document.querySelector('.lom');
 const first_new= document.querySelector('.first-new');
 const lom_tool= document.querySelector('.lom-tool');
-
-var g= document.querySelector('#qwe'),
-    transform= getComputedStyle(g).getPropertyValue('transform');
-g.setAttribute('transform', transform);
 
 const instanceLomTool= new Tooltip(lom_tool, {
   placement: 'right',
@@ -131,7 +127,7 @@ const instance= new Tooltip(popper, {
 const instanceFourtwo= new Tooltip(stanfourtwo, {
   popperOptions: {
     positionFixed: true,
-    placement: 'bottom',
+    placement: 'bottom-end',
     modifiers: {
       flip: {
         enable: true
@@ -147,23 +143,20 @@ const instanceFourtwo= new Tooltip(stanfourtwo, {
 const instanceMnls= new Tooltip(mnls, {
   popperOptions: {
     positionFixed: true,
-    placement: 'bottom',
+    placement: 'bottom-end',
     modifiers: {
-      flip: {
-        enable: true
-      },
       preventOverflow: {
         boundariesElement: 'scrollParrent'
       }
     }
   },
-  placement: 'bottom',
+  placement: 'bottom-end',
   title: "Жидкая сталь разливается на МНЛЗ открытой или закрытой струей на заготовку размером 150х150(130х130) мм длиной 6-12 м с электромагнитным перемешиванием в кристаллизаторе и ручьях. Заготовка при необходимости проходит дробеструйную очистку от окалины, магнитно-порошковый контроль поверхностных дефектов и их абразивную сплошную или выборочную зачистку. Количество ручьев - 4 шт. Радиус машины - 9 м Номинальная емкость промковша - 18.4 т (макс. 19.8 т) Оснащен манипуляторами для защитной трубы и для разливочного стакана. Контроль уровня стали в кристаллизаторе - радиоактивный датчик Со60.",
 });
 const instanceF= new Tooltip(factory, {
   popperOptions: {
     positionFixed: true,
-    placement: 'bottom-end',
+    placement: 'bottom-start',
     modifiers: {
       flip: {
         enable: true
@@ -173,13 +166,13 @@ const instanceF= new Tooltip(factory, {
       }
     }
   },
-  placement: 'bottom',
+  placement: 'bottom-start',
   title: "Ввод в эксплуатацию – 1946 г. Работает в составе двух агломашин площадью спекания 30 и 50 м2. Производится агломерат для доменного цеха. Основные задачи цеха: производство агломерата для доменного цеха; производство обожженной извести для нужд ЭСПЦ; Максимальный годовой объем производства: 660 тыс. тонн агломерата 14,6 тыс. тонн извести"
 });
 const instanceD= new Tooltip(domeny, {
   popperOptions: {
     positionFixed: true,
-    placement: 'bottom',
+    placement: 'bottom-end',
     modifiers: {
       flip: {
         enable: true
@@ -195,7 +188,7 @@ const instanceD= new Tooltip(domeny, {
 const instanceB= new Tooltip(bake, {
   popperOptions: {
     positionFixed: true,
-    placement: 'bottom',
+    placement: 'bottom-start',
     modifiers: {
       flip: {
         enable: true
@@ -205,7 +198,7 @@ const instanceB= new Tooltip(bake, {
       }
     }
   },
-  placement: 'bottom',
+  placement: 'bottom-start',
   title: "АКП (агрегат печь-ковш) служит для доведения полупродукта, выпущенного из ДСП-80 до заданной температуры и химического состава готовой стали, для последующей обработки на вакууматоре (при необходимости) и разливки на МНЛЗ. Емкость ковша – 80 т Годовой объем производства 750 000 т Время плавки 35-47 минут"
 });
 const instanceDsp= new Tooltip(dsp, {
@@ -227,7 +220,7 @@ const instanceDsp= new Tooltip(dsp, {
 const instanceBt= new Tooltip(baketwo, {
   popperOptions: {
     positionFixed: true,
-    placement: 'bottom',
+    placement: 'bottom-end',
     modifiers: {
       flip: {
         enable: true
@@ -237,29 +230,26 @@ const instanceBt= new Tooltip(baketwo, {
       }
     }
   },
-  placement: 'bottom',
+  placement: 'bottom-end',
   title: "АКП (агрегат печь-ковш) служит для доведения полупродукта, выпущенного из ДСП-80 до заданной температуры и химического состава готовой стали, для последующей обработки на вакууматоре (при необходимости) и разливки на МНЛЗ. Емкость ковша – 80 т Годовой объем производства 750 000 т Время плавки 35-47 минут"
 });
 const instanceDspt= new Tooltip(dsptwo, {
   popperOptions: {
     positionFixed: true,
-    placement: 'bottom',
+    placement: 'bottom-end',
     modifiers: {
-      flip: {
-        enable: true
-      },
       preventOverflow: {
         boundariesElement: 'scrollParrent'
       }
     }
   },
-  placement: 'bottom',
+  placement: 'bottom-end',
   title: "Предназначена для выплавки полупродукта с заданной температурой для последующей обработки и легирования. Емкость печи – 80 т Годовой объем производства – 750 000 т Время плавки – 47 минут Используемая шихта – до 40% жидкого чугуна или 100% металлолома"
 });
 const instanceV= new Tooltip(vacuumer, {
   popperOptions: {
     positionFixed: true,
-    placement: 'bottom',
+    placement: 'bottom-start',
     modifiers: {
       flip: {
         enable: true
@@ -269,13 +259,13 @@ const instanceV= new Tooltip(vacuumer, {
       }
     }
   },
-  placement: 'bottom',
+  placement: 'bottom-start',
   title: "Служит для обработки жидкой стали под вакуумом с целью улучшения её качества за счёт уменьшения в ней содержания газов (водород, кислород) и неметаллических включений. Емкость в ковше по вакуумирование – 75 т Тип агрегата – камерный VD Время обработки – до 45 минут"
 });
 const instanceVtwo= new Tooltip(vacuumertwo, {
   popperOptions: {
     positionFixed: true,
-    placement: 'bottom',
+    placement: 'bottom-end',
     modifiers: {
       flip: {
         enable: true
@@ -291,7 +281,7 @@ const instanceVtwo= new Tooltip(vacuumertwo, {
 const instanceI= new Tooltip(ingots, {
   popperOptions: {
     positionFixed: true,
-    placement: 'bottom',
+    placement: 'bottom-end',
     modifiers: {
       flip: {
         enable: true
@@ -307,7 +297,7 @@ const instanceI= new Tooltip(ingots, {
 const instanceC= new Tooltip(calibr, {
   popperOptions: {
     positionFixed: true,
-    placement: 'bottom',
+    placement: 'bottom-start',
     modifiers: {
       flip: {
         enable: true
@@ -317,7 +307,7 @@ const instanceC= new Tooltip(calibr, {
       }
     }
   },
-  placement: 'bottom',
+  placement: 'bottom-start',
   title: "Ввод в эксплуатацию – 1933 г. В состав калибровочного цеха входят участки отделки, зачистки, термообработки металла, отделения волочения, травильное и инструментальное, другие подразделения. Цех оборудован отечественными и импортными станками и линиями для холодного волочения проката, обточки и полировки. Основные задачи цеха: производство калиброванного, горячекатаного проката и проката со специальной отделкой поверхности. Максимальная годовая производительность: 90 тыс. тонн калиброванного металлопроката"
 });
 const instanceStan= new Tooltip(stanfour, {
@@ -387,7 +377,7 @@ const instanceCar= new Tooltip(car, {
 const instanceCartwo= new Tooltip(cartwo, {
   popperOptions: {
     positionFixed: true,
-    placement: 'bottom',
+    placement: 'bottom-end',
     modifiers: {
       flip: {
         enable: true
@@ -998,6 +988,84 @@ document.querySelector('#eightanim ').onmouseout = function(e) {
   if (e.target.getAttribute('id') && e.target.getAttribute('id')=='eightanim'){
     colors.play();
     colors.reverse();
+    console.log('out')
+  } 
+};
+var colorsTwo = anime({
+  targets: '#nineteenscroll .qwe4',
+  backgroundColor: 
+    {value: '#ffffff'},
+
+    easing: 'easeInOutSine',
+  duration: 2000,
+  loop: false
+});
+colorsTwo.reverse();
+colorsTwo.pause();
+document.querySelector('#nineanim').onmouseover = function(e) {
+  if (e.target.getAttribute('id') && e.target.getAttribute('id')=='nineanim'){
+    colorsTwo.play();
+    colorsTwo.reverse();
+    console.log('over')
+    console.log(e.target)
+  }
+};
+document.querySelector('#nineanim').onmouseout = function(e) {
+  if (e.target.getAttribute('id') && e.target.getAttribute('id')=='nineanim'){
+    colorsTwo.play();
+    colorsTwo.reverse();
+    console.log('out')
+  } 
+};
+var colorsThree = anime({
+  targets: '#twentyonescroll .qwe5',
+  backgroundColor: 
+    {value: '#ffffff'},
+
+    easing: 'easeInOutSine',
+  duration: 2000,
+  loop: false
+});
+colorsThree.reverse();
+colorsThree.pause();
+document.querySelector('#twentyanim').onmouseover = function(e) {
+  if (e.target.getAttribute('id') && e.target.getAttribute('id')=='twentyanim'){
+    colorsThree.play();
+    colorsThree.reverse();
+    console.log('over')
+    console.log(e.target)
+  }
+};
+document.querySelector('#twentyanim').onmouseout = function(e) {
+  if (e.target.getAttribute('id') && e.target.getAttribute('id')=='twentyanim'){
+    colorsThree.play();
+    colorsThree.reverse();
+    console.log('out')
+  } 
+};
+var colorsFour = anime({
+  targets: '#righttenscroll .qwe7',
+  backgroundColor: 
+    {value: '#ffffff'},
+
+    easing: 'easeInOutSine',
+  duration: 2000,
+  loop: false
+});
+colorsFour.reverse();
+colorsFour.pause();
+document.querySelector('#rightfiveanim').onmouseover = function(e) {
+  if (e.target.getAttribute('id') && e.target.getAttribute('id')=='rightfiveanim'){
+    colorsFour.play();
+    colorsFour.reverse();
+    console.log('over')
+    console.log(e.target)
+  }
+};
+document.querySelector('#rightfiveanim').onmouseout = function(e) {
+  if (e.target.getAttribute('id') && e.target.getAttribute('id')=='rightfiveanim'){
+    colorsFour.play();
+    colorsFour.reverse();
     console.log('out')
   } 
 };
