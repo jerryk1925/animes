@@ -814,7 +814,9 @@ document.querySelector('#righttwoanim').onmouseover = function(e) {
 //     console.log('out')
 //   } 
 // };
-var mnlsLine  = anime.timeline();
+var mnlsLine  = anime.timeline({
+  loop: true
+});
 mnlsLine
 .add({
   targets: '.mnls .mnlswrap .mnlspath1',
@@ -823,6 +825,7 @@ mnlsLine
   duration: 1000,
   delay: function(el, i) { return i * 250 },
   direction: 'alternate',
+  loop: true
 })
 .add({
   targets: '.mnls .mnlswrap .mnlspath2',
@@ -831,6 +834,7 @@ mnlsLine
   duration: 1000,
   delay: function(el, i) { return i * 250 },
   direction: 'alternate',
+  loop: true
 })
 // var mnlsLine = anime({
 //   targets: '.mnls .mnlswrap .mnlspath',
@@ -841,16 +845,23 @@ mnlsLine
 //   direction: 'alternate',
 //   loop: false
 // });
-
+mnlsLine.pause();
 document.querySelector('#rightfouranim').onmouseover = function(e) {
   if (e.target.getAttribute('id') && e.target.getAttribute('id')=='rightfouranim'){
-    mnlsLine.reset();
+    mnlsLine.play();
     // oreDrawingTwo.reverse();
     mnlsLine.pause();
     mnlsLine.play();
     console.log('over')
     console.log(e.target)
   }
+};
+document.querySelector('#rightfouranim').onmouseout = function(e) {
+  if (e.target.getAttribute('id') && e.target.getAttribute('id')=='rightfouranim'){
+    mnlsLine.reset();
+    mnlsLine.pause();
+    console.log('out')
+  } 
 };
 var linerepeirDuration = anime({
   targets: '#rightanims',
