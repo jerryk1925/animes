@@ -650,9 +650,9 @@ p.bold {
 .col{
     display: flex;
     align-items: center;
-    position: relative;
+    // position: relative;
     &-relbot{
-        position: relative;
+        // position: relative;
         bottom: 341px;
         right: 60px;
         @media only screen and (max-width: 720px) {

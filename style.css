@@ -875,11 +875,9 @@ p.bold {
 .col {
   display: flex;
   align-items: center;
-  position: relative;
 }
 
 .col-relbot {
-  position: relative;
   bottom: 341px;
   right: 60px;
 }
