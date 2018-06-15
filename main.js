@@ -975,7 +975,32 @@ document.querySelector('#sevenanim').onmouseout = function(e) {
     console.log('out')
   } 
 };
+var colors = anime({
+  targets: '#seveteenscroll .qwe2',
+  backgroundColor: 
+    {value: '#ffffff'},
 
+    easing: 'easeInOutSine',
+  duration: 2000,
+  loop: false
+});
+colors.reverse();
+colors.pause();
+document.querySelector('#eightanim').onmouseover = function(e) {
+  if (e.target.getAttribute('id') && e.target.getAttribute('id')=='eightanim'){
+    colors.play();
+    colors.reverse();
+    console.log('over')
+    console.log(e.target)
+  }
+};
+document.querySelector('#eightanim ').onmouseout = function(e) {
+  if (e.target.getAttribute('id') && e.target.getAttribute('id')=='eightanim'){
+    colors.play();
+    colors.reverse();
+    console.log('out')
+  } 
+};
 
 
 // var relativeValues = anime({

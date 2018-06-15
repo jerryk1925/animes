@@ -1087,6 +1087,11 @@ svg {
   z-index: 200;
 }
 
+#seveteenscroll {
+  z-index: 200;
+  position: relative;
+}
+
 #seveteenscroll:hover {
   z-index: 200;
 }
@@ -1338,4 +1343,32 @@ svg {
   -sand-transform: translateY(0px);
   -webkit-transform: translateY(0px);
   transition-duration: 1s;
+}
+
+.qwe1 {
+  border: 1px solid  #434342;
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.qwe2 {
+  position: relative;
+  z-index: -1;
+  border: 1px solid  #F39416;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0);
+}
+
+#seveteenscroll:hover .qwe1 {
+  border: 1px solid  #F39416;
+}
+
+#seveteenscroll:hover .qwe2 {
+  border: 1px solid  white;
 }
