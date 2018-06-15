@@ -203,6 +203,13 @@ p.bold {
   padding: .5em 1em;
 }
 
+@supports (position: sticky) or (position: -webkit-sticky) {
+  .tooltip {
+    position: -webkit-sticky;
+    position: sticky;
+  }
+}
+
 .tooltip .tooltip-arrow {
   width: 0;
   height: 0;
