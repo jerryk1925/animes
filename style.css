@@ -128,176 +128,6 @@ body {
   color: white;
 }
 
-.link-anchor {
-  position: relative;
-  width: 0;
-  font-size: .8em;
-  opacity: 0;
-  transition: opacity .2s ease-in-out;
-}
-
-.anchor-wrapper {
-  border: none;
-}
-
-.anchor-wrapper:hover .link-anchor {
-  opacity: 1;
-}
-
-section h1[id]:focus,
-section h2[id]:focus,
-section h3[id]:focus,
-section h4[id]:focus,
-section h5[id]:focus {
-  outline: 0;
-}
-
-p.thin {
-  font-weight: 100;
-  margin: 0;
-  line-height: 1.2em;
-}
-
-p.bold {
-  font-weight: 900;
-  margin: 0;
-  margin-top: -5px;
-}
-
-.rel {
-  width: 30%;
-  margin: 0 auto;
-  position: relative;
-  text-align: center;
-  padding: 20px;
-  border-style: dotted;
-  border-color: white;
-  border-width: medium;
-}
-
-.tooltip {
-  position: absolute;
-  background: #F39416;
-  color: black;
-  max-width: 400px;
-  border-radius: 3px;
-  box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
-  padding: 10px;
-  text-align: left;
-}
-
-@media only screen and (max-width: 768px) {
-  .tooltip {
-    text-align: center;
-    background: none;
-    padding: 5px;
-  }
-}
-
-.style5 .tooltip {
-  background: #1E252B;
-  color: #FFFFFF;
-  max-width: 500px;
-  width: auto;
-  font-size: .5rem;
-  padding: .5em 1em;
-}
-
-.tooltip .tooltip-arrow {
-  width: 0;
-  height: 0;
-  border-style: solid;
-  position: absolute;
-  margin: 5px;
-}
-
-.tooltip .tooltip-arrow {
-  border-color: #F39416;
-}
-
-@media only screen and (max-width: 768px) {
-  .tooltip .tooltip-arrow {
-    display: none;
-  }
-}
-
-.style5 .tooltip .tooltip-arrow {
-  border-color: #1E252B;
-}
-
-.tooltip[x-placement^="top"] {
-  margin-bottom: 5px;
-}
-
-.tooltip[x-placement^="top"] .tooltip-arrow {
-  border-width: 5px 5px 0 5px;
-  border-left-color: transparent;
-  border-right-color: transparent;
-  border-bottom-color: transparent;
-  bottom: -5px;
-  left: calc(50% - 5px);
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-.tooltip[x-placement^="bottom"] {
-  margin-top: 5px;
-}
-
-.tooltip[x-placement^="bottom"] .tooltip-arrow {
-  border-width: 0 5px 5px 5px;
-  border-left-color: transparent;
-  border-right-color: transparent;
-  border-top-color: transparent;
-  top: -5px;
-  left: calc(50% - 5px);
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-.tooltip[x-placement^="right"] {
-  margin-left: 5px;
-}
-
-.tooltip[x-placement^="right"] .tooltip-arrow {
-  border-width: 5px 5px 5px 0;
-  border-left-color: transparent;
-  border-top-color: transparent;
-  border-bottom-color: transparent;
-  left: -5px;
-  top: calc(50% - 5px);
-  margin-left: 0;
-  margin-right: 0;
-}
-
-.tooltip[x-placement^="left"] {
-  margin-right: 5px;
-}
-
-.tooltip[x-placement^="left"] .tooltip-arrow {
-  border-width: 5px 0 5px 5px;
-  border-top-color: transparent;
-  border-right-color: transparent;
-  border-bottom-color: transparent;
-  right: -5px;
-  top: calc(50% - 5px);
-  margin-left: 0;
-  margin-right: 0;
-}
-
-.tooltip-inner {
-  width: 400px;
-  font-size: 13px;
-  color: white;
-  font-family: "ProximaNova-Bold";
-}
-
-@media only screen and (max-width: 768px) {
-  .tooltip-inner {
-    width: 100px;
-  }
-}
-
 .configuration {
   width: 1600px;
   background: url("img/background.png") no-repeat;
@@ -875,9 +705,11 @@ p.bold {
 .col {
   display: flex;
   align-items: center;
+  position: relative;
 }
 
 .col-relbot {
+  position: relative;
   bottom: 341px;
   right: 60px;
 }
@@ -1023,6 +855,11 @@ p.bold {
   .svgeleven {
     width: 240px;
   }
+}
+
+.col:hover {
+  position: relative;
+  z-index: 200;
 }
 
 svg {
