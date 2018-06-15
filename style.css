@@ -1027,11 +1027,6 @@ p.bold {
   }
 }
 
-.col:hover {
-  position: relative;
-  z-index: 9000000;
-}
-
 svg {
   position: relative;
   z-index: -1;
