@@ -814,16 +814,34 @@ document.querySelector('#righttwoanim').onmouseover = function(e) {
 //     console.log('out')
 //   } 
 // };
-
-var mnlsLine = anime({
-  targets: '.mnls .mnlswrap .mnlspath',
+var mnlsLine  = anime.timeline();
+mnlsLine
+.add({
+  targets: '.mnls .mnlswrap .mnlspath1',
   strokeDashoffset: [anime.setDashoffset, 0],
   easing: 'easeInOutSine',
-  duration: 2000,
+  duration: 1000,
   delay: function(el, i) { return i * 250 },
   direction: 'alternate',
-  loop: false
-});
+})
+.add({
+  targets: '.mnls .mnlswrap .mnlspath2',
+  strokeDashoffset: [anime.setDashoffset, 0],
+  easing: 'easeInOutSine',
+  duration: 1000,
+  delay: function(el, i) { return i * 250 },
+  direction: 'alternate',
+})
+// var mnlsLine = anime({
+//   targets: '.mnls .mnlswrap .mnlspath',
+//   strokeDashoffset: [anime.setDashoffset, 0],
+//   easing: 'easeInOutSine',
+//   duration: 2000,
+//   delay: function(el, i) { return i * 250 },
+//   direction: 'alternate',
+//   loop: false
+// });
+
 document.querySelector('#rightfouranim').onmouseover = function(e) {
   if (e.target.getAttribute('id') && e.target.getAttribute('id')=='rightfouranim'){
     mnlsLine.reset();
