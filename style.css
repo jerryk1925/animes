@@ -1488,3 +1488,46 @@ svg {
 #righttenscroll:hover .qwe7 {
   border: 1px solid  white;
 }
+
+#righttop {
+  top: -4px;
+}
+
+#rightfivescroll {
+  top: -7px;
+}
+
+#iefour {
+  top: -19px;
+}
+
+#rightninescroll {
+  top: -25px;
+}
+
+#righttenscroll {
+  top: -30px;
+}
+
+#rightfifteenscroll {
+  bottom: 377px;
+  right: 57px;
+}
+
+#rightelevenscroll {
+  top: -30px;
+}
+
+#rightetwelvescroll {
+  top: -30px;
+  position: relative;
+}
+
+#rightthirteenthscroll {
+  top: -34px;
+}
+
+#rightfourteenthscroll {
+  top: -34px;
+  position: relative;
+}
