@@ -958,7 +958,7 @@ p.bold {
 
 .col-itemone {
   position: relative;
-  top: 0;
+  top: -10px;
   right: 110px;
 }
 
@@ -971,6 +971,7 @@ p.bold {
 .col-itemtwo {
   position: relative;
   right: 40px;
+  top: -10px;
 }
 
 @media only screen and (max-width: 720px) {
@@ -980,6 +981,7 @@ p.bold {
 }
 
 .col-itemfour {
+  top: -10px;
   position: relative;
   left: 50px;
 }
@@ -991,6 +993,7 @@ p.bold {
 }
 
 .col-itemfive {
+  top: -8px;
   position: relative;
   left: 110px;
 }
@@ -1153,7 +1156,7 @@ svg {
 }
 
 #twentythreescroll {
-  top: -12px;
+  top: -24px;
   position: relative;
 }
 
@@ -1371,7 +1374,13 @@ svg {
 }
 
 #rightfivescroll {
-  top: -7px;
+  top: -10px;
+}
+
+@media only screen and (max-width: 720px) {
+  #rightfivescroll {
+    left: 7px;
+  }
 }
 
 #iefour {
@@ -1414,6 +1423,32 @@ svg {
 #rightfourteenthscroll {
   top: -34px;
   position: relative;
+}
+
+#ninescroll {
+  top: -5px;
+}
+
+@media only screen and (max-width: 720px) {
+  #ninescroll {
+    left: 7px;
+  }
+}
+
+#ietwo {
+  top: -10px;
+}
+
+#thirteenthscroll {
+  top: -10px;
+}
+
+#fourteenthscroll {
+  top: -10px;
+}
+
+#iethree {
+  top: -10px;
 }
 
 @media all and (-ms-high-contrast: none) {
@@ -1466,13 +1501,13 @@ svg {
 
 @media all and (-ms-high-contrast: none) {
   *::-ms-backdrop, #twentytwoscroll {
-    top: -130px;
+    top: -123px;
   }
 }
 
 @media all and (-ms-high-contrast: none) {
   *::-ms-backdrop, #twentythreescroll {
-    top: -144px;
+    top: -150px;
     position: relative;
   }
 }
@@ -1509,7 +1544,7 @@ svg {
 
 @media all and (-ms-high-contrast: none) {
   *::-ms-backdrop, #rightfifteenscroll {
-    top: -517px;
+    top: -541px;
   }
 }
 
@@ -1536,5 +1571,11 @@ svg {
   *::-ms-backdrop, #rightfourteenthscroll {
     top: -198px;
     position: relative;
+  }
+}
+
+@-moz-document url-prefix() {
+  .style {
+    background: #F00;
   }
 }
