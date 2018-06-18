@@ -1157,129 +1157,6 @@ svg {
   position: relative;
 }
 
-@media all and (-ms-high-contrast: none) {
-  *::-ms-backdrop, #onescroll {
-    top: 25px;
-  }
-}
-
-@media all and (-ms-high-contrast: none) {
-  *::-ms-backdrop, #fivescroll {
-    top: -25px;
-  }
-}
-
-@media all and (-ms-high-contrast: none) {
-  *::-ms-backdrop, #ieone {
-    top: -50px;
-  }
-}
-
-@media all and (-ms-high-contrast: none) {
-  *::-ms-backdrop, #ninescroll {
-    top: -70px;
-  }
-}
-
-@media all and (-ms-high-contrast: none) {
-  *::-ms-backdrop, #ietwo {
-    top: -100px;
-  }
-}
-
-@media all and (-ms-high-contrast: none) {
-  *::-ms-backdrop, #thirteenthscroll {
-    top: -130px;
-  }
-}
-
-@media all and (-ms-high-contrast: none) {
-  *::-ms-backdrop, #fourteenthscroll {
-    top: -130px;
-  }
-}
-
-@media all and (-ms-high-contrast: none) {
-  *::-ms-backdrop, #iethree {
-    top: -130px;
-  }
-}
-
-@media all and (-ms-high-contrast: none) {
-  *::-ms-backdrop, #twentytwoscroll {
-    top: -130px;
-  }
-}
-
-@media all and (-ms-high-contrast: none) {
-  *::-ms-backdrop, #twentythreescroll {
-    top: -144px;
-    position: relative;
-  }
-}
-
-@media all and (-ms-high-contrast: none) {
-  *::-ms-backdrop, #rightonescroll {
-    top: 25px;
-  }
-}
-
-@media all and (-ms-high-contrast: none) {
-  *::-ms-backdrop, #rightfivescroll {
-    top: -25px;
-  }
-}
-
-@media all and (-ms-high-contrast: none) {
-  *::-ms-backdrop, #iefour {
-    top: -55px;
-  }
-}
-
-@media all and (-ms-high-contrast: none) {
-  *::-ms-backdrop, #rightninescroll {
-    top: -130px;
-  }
-}
-
-@media all and (-ms-high-contrast: none) {
-  *::-ms-backdrop, #righttenscroll {
-    top: -180px;
-  }
-}
-
-@media all and (-ms-high-contrast: none) {
-  *::-ms-backdrop, #rightfifteenscroll {
-    top: -517px;
-  }
-}
-
-@media all and (-ms-high-contrast: none) {
-  *::-ms-backdrop, #rightelevenscroll {
-    top: -175px;
-  }
-}
-
-@media all and (-ms-high-contrast: none) {
-  *::-ms-backdrop, #rightetwelvescroll {
-    top: -175px;
-    position: relative;
-  }
-}
-
-@media all and (-ms-high-contrast: none) {
-  *::-ms-backdrop, #rightthirteenthscroll {
-    top: -175px;
-  }
-}
-
-@media all and (-ms-high-contrast: none) {
-  *::-ms-backdrop, #rightfourteenthscroll {
-    top: -172px;
-    position: relative;
-  }
-}
-
 #qwe1 {
   transform: translateY(30px);
   -ms-transform: translateY(30px);
@@ -1514,6 +1391,13 @@ svg {
   right: 57px;
 }
 
+@media only screen and (max-width: 720px) {
+  #rightfifteenscroll {
+    bottom: 357px;
+    right: 48px;
+  }
+}
+
 #rightelevenscroll {
   top: -30px;
 }
@@ -1530,4 +1414,127 @@ svg {
 #rightfourteenthscroll {
   top: -34px;
   position: relative;
+}
+
+@media all and (-ms-high-contrast: none) {
+  *::-ms-backdrop, #onescroll {
+    top: 25px;
+  }
+}
+
+@media all and (-ms-high-contrast: none) {
+  *::-ms-backdrop, #fivescroll {
+    top: -25px;
+  }
+}
+
+@media all and (-ms-high-contrast: none) {
+  *::-ms-backdrop, #ieone {
+    top: -50px;
+  }
+}
+
+@media all and (-ms-high-contrast: none) {
+  *::-ms-backdrop, #ninescroll {
+    top: -70px;
+  }
+}
+
+@media all and (-ms-high-contrast: none) {
+  *::-ms-backdrop, #ietwo {
+    top: -100px;
+  }
+}
+
+@media all and (-ms-high-contrast: none) {
+  *::-ms-backdrop, #thirteenthscroll {
+    top: -130px;
+  }
+}
+
+@media all and (-ms-high-contrast: none) {
+  *::-ms-backdrop, #fourteenthscroll {
+    top: -130px;
+  }
+}
+
+@media all and (-ms-high-contrast: none) {
+  *::-ms-backdrop, #iethree {
+    top: -130px;
+  }
+}
+
+@media all and (-ms-high-contrast: none) {
+  *::-ms-backdrop, #twentytwoscroll {
+    top: -130px;
+  }
+}
+
+@media all and (-ms-high-contrast: none) {
+  *::-ms-backdrop, #twentythreescroll {
+    top: -144px;
+    position: relative;
+  }
+}
+
+@media all and (-ms-high-contrast: none) {
+  *::-ms-backdrop, #rightonescroll {
+    top: 25px;
+  }
+}
+
+@media all and (-ms-high-contrast: none) {
+  *::-ms-backdrop, #rightfivescroll {
+    top: -35px;
+  }
+}
+
+@media all and (-ms-high-contrast: none) {
+  *::-ms-backdrop, #iefour {
+    top: -70px;
+  }
+}
+
+@media all and (-ms-high-contrast: none) {
+  *::-ms-backdrop, #rightninescroll {
+    top: -145px;
+  }
+}
+
+@media all and (-ms-high-contrast: none) {
+  *::-ms-backdrop, #righttenscroll {
+    top: -195px;
+  }
+}
+
+@media all and (-ms-high-contrast: none) {
+  *::-ms-backdrop, #rightfifteenscroll {
+    top: -517px;
+  }
+}
+
+@media all and (-ms-high-contrast: none) {
+  *::-ms-backdrop, #rightelevenscroll {
+    top: -195px;
+  }
+}
+
+@media all and (-ms-high-contrast: none) {
+  *::-ms-backdrop, #rightetwelvescroll {
+    top: -195px;
+    position: relative;
+  }
+}
+
+@media all and (-ms-high-contrast: none) {
+  *::-ms-backdrop, #rightthirteenthscroll {
+    top: -197px;
+  }
+}
+
+@media all and (-ms-high-contrast: none) {
+  *::-ms-backdrop, #rightfourteenthscroll {
+    top: -198px;
+    position: relative;
+  }
 }
