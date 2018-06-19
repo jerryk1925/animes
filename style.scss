@@ -364,7 +364,7 @@ p.bold {
         @media only screen and (max-width: 1336px) {
             margin-left: 119px;
         }
-        @media only screen and (max-width: 900px) {
+        @media only screen and (max-width: 956px) {
             margin-left: 20px;
         }
         @media only screen and (max-width: 720px) {
@@ -419,7 +419,7 @@ p.bold {
         @media only screen and (max-width: 1336px) {
             margin-left: 116px;
         }
-        @media only screen and (max-width: 900px) {
+        @media only screen and (max-width: 956px) {
             margin-left: 27px;
             margin-top: 45px;
         }
@@ -515,7 +515,7 @@ p.bold {
         @media only screen and (max-width: 1300px) {
             margin-left: 68px;
         }
-        @media only screen and (max-width: 900px) {
+        @media only screen and (max-width: 956px) {
             margin-left: 20px;
         }
         @media only screen and (max-width: 720px) {
@@ -689,11 +689,11 @@ p.bold {
 
     }
     &-moreright{
-        padding-right: 98px;
+        padding-right: 106px;
         @media only screen and (max-width: 720px) {
             padding-right: 0;
             align-self: center;
-            padding-left: 140px;
+            padding-left: 130px;
          }
     }
     &-line{
@@ -712,31 +712,31 @@ p.bold {
         top: -10px;
         right: 110px;
         @media only screen and (max-width: 720px) {
-            right: 80px;
+            right: 90px;
          } 
     }
     &-itemtwo{
         position: relative;
-        right: 40px;
-        top: -10px;
+        right: 43px;
+        top: -20px;
         @media only screen and (max-width: 720px) {
-            right: 30px;
+            right: 32px;
         } 
     }
     &-itemfour{
-        top: -10px;
+        top: -20px;
         position: relative;
-        left: 50px;
+        left: 46px;
         @media only screen and (max-width: 720px) {
-            left: 38px;
+            left: 36px;
         } 
     }
     &-itemfive{
-        top: -8px;
+        top: -9px;
         position: relative;
         left: 110px;
         @media only screen and (max-width: 720px) {
-            left: 85px;
+            left: 90px;
         }
     }
 }
@@ -876,8 +876,11 @@ fill-opacity: 1;
     }
 }
 #twentythreescroll{
-    top: -24px;
+    top: -46px;
     position: relative;
+    @media only screen and (max-width: 720px) {
+        top: -68px;
+    } 
 }
 
 #qwe1 {
@@ -1091,62 +1094,162 @@ fill-opacity: 1;
     position: relative;
 }
 #ninescroll{
-    top:-5px;
+    top: -9px;
+    left: -2px;
     @media only screen and (max-width: 720px) {
         left: 7px;
+        top: -17px;
     } 
 }
 #ietwo{
-    top: -10px;
+    top: -13px;
+    @media only screen and (max-width: 720px) {
+        top: -24px;
+    } 
 }
 #thirteenthscroll{
-    top: -10px;
+    top: -16px;
+    @media only screen and (max-width: 720px) {
+        top: -29px;
+        padding-right: 30px;
+    } 
 }
 #fourteenthscroll{
-    top: -10px;
+    top: -19px;
+    @media only screen and (max-width: 720px) {
+        top: -36px;
+    } 
 }
 #iethree{
+    top: -19px;
+    @media only screen and (max-width: 720px) {
+        top: -37px;
+    } 
+}
+#onescroll{
+    top:-2px;
+    @media only screen and (max-width: 720px) {
+        top:0px;
+    }
+}
+#threescroll{
+    left: -4px;
+    position: relative;
+    @media only screen and (max-width: 720px) {
+        left: -3px;
+    }
+}
+#fourscroll,
+#sixscroll,
+#twelvescroll{
+    left: -6px;
+    position: relative;
+}
+#sevenscroll,#elevenscroll{
+    left: -4px;
+    position: relative;
+    @media only screen and (max-width: 720px) {
+        left: -3px;
+    }
+}
+#fivescroll{
+    top: -3px;
+    @media only screen and (max-width: 720px) {
+        top: -6px;
+    }
+}
+#ieone{
+    top: -3px;
+    @media only screen and (max-width: 720px) {
+        top: -8px;
+    }
+}
+#twentytwoscroll{
     top: -10px;
+    @media only screen and (max-width: 720px) {
+        top: -30px;
+    }
+}
+@-moz-document url-prefix() {
+    #onescroll{
+        top:0px;
+    }
+}
+@-moz-document url-prefix() {
+    #ieone{
+        top: -7px;
+    }
+    #fivescroll{
+        top: -5px;
+    }
+    #ninescroll{
+        top: -15px;
+        @media only screen and (max-width: 720px) {
+            top: -17px;
+        }
+    }
+    #ietwo{
+        top: -25px;
+    }
+    #thirteenthscroll{
+        top: -30px;
+    }
+    #fourteenthscroll{
+        top: -35px;
+        @media only screen and (max-width: 720px) {
+            top: -36px;
+        }
+    }
+    #iethree{
+        top: -37px;
+    }
+    #twentytwoscroll{
+        top: -31px;
+    }
+    #twentythreescroll{
+        top: -68px;
+        position: relative;
+    }
 }
 @media all and (-ms-high-contrast:none)
 {
-*::-ms-backdrop, #onescroll { top: 25px } 
+*::-ms-backdrop, #onescroll { top: 26px } 
 }
 @media all and (-ms-high-contrast:none)
 {
-*::-ms-backdrop, #fivescroll { top: -25px } 
+*::-ms-backdrop, #fivescroll { top: -32px } 
 }
 @media all and (-ms-high-contrast:none)
 {
-*::-ms-backdrop, #ieone { top: -50px } 
+*::-ms-backdrop, #ieone { top: -60px } 
 }
 @media all and (-ms-high-contrast:none)
 {
-*::-ms-backdrop, #ninescroll { top: -80px } 
+*::-ms-backdrop, #ninescroll { top: -93px } 
 }
 @media all and (-ms-high-contrast:none)
 {
-*::-ms-backdrop, #ietwo { top: -115px } 
+*::-ms-backdrop, #ietwo { top: -128px } 
 }
 @media all and (-ms-high-contrast:none)
 {
-*::-ms-backdrop, #thirteenthscroll{  top: -145px   } 
+*::-ms-backdrop, #thirteenthscroll{  top: -160px   } 
 }
 @media all and (-ms-high-contrast:none)
 {
-*::-ms-backdrop, #fourteenthscroll{  top: -150px   } 
+*::-ms-backdrop, #fourteenthscroll{  top: -165px   } 
 }
 @media all and (-ms-high-contrast:none)
 {
-*::-ms-backdrop, #iethree{  top: -150px   } 
+*::-ms-backdrop, #iethree{  top: -168px   } 
 }
 @media all and (-ms-high-contrast:none)
 {
-*::-ms-backdrop, #twentytwoscroll{  top: -143px   } 
+*::-ms-backdrop, #twentytwoscroll{  top: -162px   } 
 }
 @media all and (-ms-high-contrast:none)
 {
-*::-ms-backdrop, #twentythreescroll{  top: -170px; position: relative;  } 
+*::-ms-backdrop, #twentythreescroll{  top: -200px; position: relative;  } 
 }
 @media all and (-ms-high-contrast:none)
 {

@@ -468,7 +468,7 @@ p.bold {
   }
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 956px) {
   .first-row {
     margin-left: 20px;
   }
@@ -553,7 +553,7 @@ p.bold {
   }
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 956px) {
   .second-row {
     margin-left: 27px;
     margin-top: 45px;
@@ -694,7 +694,7 @@ p.bold {
   }
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 956px) {
   .three-row {
     margin-left: 20px;
   }
@@ -931,14 +931,14 @@ p.bold {
 }
 
 .col-moreright {
-  padding-right: 98px;
+  padding-right: 106px;
 }
 
 @media only screen and (max-width: 720px) {
   .col-moreright {
     padding-right: 0;
     align-self: center;
-    padding-left: 140px;
+    padding-left: 130px;
   }
 }
 
@@ -964,43 +964,43 @@ p.bold {
 
 @media only screen and (max-width: 720px) {
   .col-itemone {
-    right: 80px;
+    right: 90px;
   }
 }
 
 .col-itemtwo {
   position: relative;
-  right: 40px;
-  top: -10px;
+  right: 43px;
+  top: -20px;
 }
 
 @media only screen and (max-width: 720px) {
   .col-itemtwo {
-    right: 30px;
+    right: 32px;
   }
 }
 
 .col-itemfour {
-  top: -10px;
+  top: -20px;
   position: relative;
-  left: 50px;
+  left: 46px;
 }
 
 @media only screen and (max-width: 720px) {
   .col-itemfour {
-    left: 38px;
+    left: 36px;
   }
 }
 
 .col-itemfive {
-  top: -8px;
+  top: -9px;
   position: relative;
   left: 110px;
 }
 
 @media only screen and (max-width: 720px) {
   .col-itemfive {
-    left: 85px;
+    left: 90px;
   }
 }
 
@@ -1156,8 +1156,14 @@ svg {
 }
 
 #twentythreescroll {
-  top: -24px;
+  top: -46px;
   position: relative;
+}
+
+@media only screen and (max-width: 720px) {
+  #twentythreescroll {
+    top: -68px;
+  }
 }
 
 #qwe1 {
@@ -1426,88 +1432,231 @@ svg {
 }
 
 #ninescroll {
-  top: -5px;
+  top: -9px;
+  left: -2px;
 }
 
 @media only screen and (max-width: 720px) {
   #ninescroll {
     left: 7px;
+    top: -17px;
   }
 }
 
 #ietwo {
-  top: -10px;
+  top: -13px;
+}
+
+@media only screen and (max-width: 720px) {
+  #ietwo {
+    top: -24px;
+  }
 }
 
 #thirteenthscroll {
-  top: -10px;
+  top: -16px;
+}
+
+@media only screen and (max-width: 720px) {
+  #thirteenthscroll {
+    top: -29px;
+    padding-right: 30px;
+  }
 }
 
 #fourteenthscroll {
-  top: -10px;
+  top: -19px;
+}
+
+@media only screen and (max-width: 720px) {
+  #fourteenthscroll {
+    top: -36px;
+  }
 }
 
 #iethree {
+  top: -19px;
+}
+
+@media only screen and (max-width: 720px) {
+  #iethree {
+    top: -37px;
+  }
+}
+
+#onescroll {
+  top: -2px;
+}
+
+@media only screen and (max-width: 720px) {
+  #onescroll {
+    top: 0px;
+  }
+}
+
+#threescroll {
+  left: -4px;
+  position: relative;
+}
+
+@media only screen and (max-width: 720px) {
+  #threescroll {
+    left: -3px;
+  }
+}
+
+#fourscroll,
+#sixscroll,
+#twelvescroll {
+  left: -6px;
+  position: relative;
+}
+
+#sevenscroll, #elevenscroll {
+  left: -4px;
+  position: relative;
+}
+
+@media only screen and (max-width: 720px) {
+  #sevenscroll, #elevenscroll {
+    left: -3px;
+  }
+}
+
+#fivescroll {
+  top: -3px;
+}
+
+@media only screen and (max-width: 720px) {
+  #fivescroll {
+    top: -6px;
+  }
+}
+
+#ieone {
+  top: -3px;
+}
+
+@media only screen and (max-width: 720px) {
+  #ieone {
+    top: -8px;
+  }
+}
+
+#twentytwoscroll {
   top: -10px;
+}
+
+@media only screen and (max-width: 720px) {
+  #twentytwoscroll {
+    top: -30px;
+  }
+}
+
+@-moz-document url-prefix() {
+  #onescroll {
+    top: 0px;
+  }
+}
+
+@-moz-document url-prefix() {
+  #ieone {
+    top: -7px;
+  }
+  #fivescroll {
+    top: -5px;
+  }
+  #ninescroll {
+    top: -15px;
+  }
+  @media only screen and (max-width: 720px) {
+    #ninescroll {
+      top: -17px;
+    }
+  }
+  #ietwo {
+    top: -25px;
+  }
+  #thirteenthscroll {
+    top: -30px;
+  }
+  #fourteenthscroll {
+    top: -35px;
+  }
+  @media only screen and (max-width: 720px) {
+    #fourteenthscroll {
+      top: -36px;
+    }
+  }
+  #iethree {
+    top: -37px;
+  }
+  #twentytwoscroll {
+    top: -31px;
+  }
+  #twentythreescroll {
+    top: -68px;
+    position: relative;
+  }
 }
 
 @media all and (-ms-high-contrast: none) {
   *::-ms-backdrop, #onescroll {
-    top: 25px;
+    top: 26px;
   }
 }
 
 @media all and (-ms-high-contrast: none) {
   *::-ms-backdrop, #fivescroll {
-    top: -25px;
+    top: -32px;
   }
 }
 
 @media all and (-ms-high-contrast: none) {
   *::-ms-backdrop, #ieone {
-    top: -50px;
+    top: -60px;
   }
 }
 
 @media all and (-ms-high-contrast: none) {
   *::-ms-backdrop, #ninescroll {
-    top: -80px;
+    top: -93px;
   }
 }
 
 @media all and (-ms-high-contrast: none) {
   *::-ms-backdrop, #ietwo {
-    top: -115px;
+    top: -128px;
   }
 }
 
 @media all and (-ms-high-contrast: none) {
   *::-ms-backdrop, #thirteenthscroll {
-    top: -145px;
+    top: -160px;
   }
 }
 
 @media all and (-ms-high-contrast: none) {
   *::-ms-backdrop, #fourteenthscroll {
-    top: -150px;
+    top: -165px;
   }
 }
 
 @media all and (-ms-high-contrast: none) {
   *::-ms-backdrop, #iethree {
-    top: -150px;
+    top: -168px;
   }
 }
 
 @media all and (-ms-high-contrast: none) {
   *::-ms-backdrop, #twentytwoscroll {
-    top: -143px;
+    top: -162px;
   }
 }
 
 @media all and (-ms-high-contrast: none) {
   *::-ms-backdrop, #twentythreescroll {
-    top: -170px;
+    top: -200px;
     position: relative;
   }
 }
