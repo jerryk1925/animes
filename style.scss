@@ -684,7 +684,7 @@ p.bold {
         @media only screen and (max-width: 720px) {
             padding-right: 0;
             align-self: center;
-            padding-left: 140px;
+            padding-left: 143px;
          }
 
     }
@@ -1057,41 +1057,61 @@ fill-opacity: 1;
     top: -4px;
 }
 #rightfivescroll{
-    top: -10px;
+    top: -12px;
+    left: 4px;
     @media only screen and (max-width: 720px) {
-        left: 7px;
+        left: 10px;
+        top: -15px;
     } 
 }
 #iefour{
-    top: -19px;
+    top: -24px;
 }
 #rightninescroll{
-    top: -25px;
+    top: -30px;
+    @media only screen and (max-width: 720px) {
+        top: -28px;
+    } 
 }
 #righttenscroll{
-    top: -30px;
+    top: -36px;
+    @media only screen and (max-width: 720px) {
+        top: -32px;
+    } 
 }
 #rightfifteenscroll{
-    bottom: 377px;
+    bottom: 382px;
     right: 57px;
     @media only screen and (max-width: 720px) {
-        bottom: 357px;
+        bottom: 358px;
         right: 48px;
     } 
 }
 #rightelevenscroll{
-    top: -30px;
+    top: -36px;
+    @media only screen and (max-width: 720px) {
+        top: -32px;
+    } 
 }
 #rightetwelvescroll{
-    top: -30px;
+    top: -36px;
     position: relative;
+    @media only screen and (max-width: 720px) {
+        top: -32px;
+    } 
 }
 #rightthirteenthscroll{
-    top: -34px;
+    top: -40px;
+    @media only screen and (max-width: 720px) {
+        top: -36px;
+    } 
 }
 #rightfourteenthscroll{
-    top: -34px;
+    top: -40px;
     position: relative;
+    @media only screen and (max-width: 720px) {
+        top: -36px;
+    } 
 }
 #ninescroll{
     top: -9px;
@@ -1169,6 +1189,28 @@ fill-opacity: 1;
     @media only screen and (max-width: 720px) {
         top: -30px;
     }
+}
+#rightthreescroll{
+    right: -2px;
+    position: relative;
+}
+#rightfourscroll{
+    right: -6px;
+    position: relative;
+    @media only screen and (max-width: 720px) {
+        right: -5px;
+    }
+}
+#rightsixscroll{
+    right: -4px;
+    position: relative;
+    @media only screen and (max-width: 720px) {
+        right: -3px;
+    }
+}
+#rightonescroll{
+    position: relative;
+    top: -1px;
 }
 @-moz-document url-prefix() {
     #onescroll{
@@ -1257,39 +1299,39 @@ fill-opacity: 1;
 }
 @media all and (-ms-high-contrast:none)
 {
-*::-ms-backdrop, #rightfivescroll{ top:-35px;  } 
+*::-ms-backdrop, #rightfivescroll{ top:-37px;  } 
 }
 @media all and (-ms-high-contrast:none)
 {
-*::-ms-backdrop, #iefour{ top:-70px;  } 
+*::-ms-backdrop, #iefour{ top:-75px;  } 
 }
 @media all and (-ms-high-contrast:none)
 {
-*::-ms-backdrop, #rightninescroll{ top:-145px;  } 
+*::-ms-backdrop, #rightninescroll{ top:-154px;  } 
 }
 @media all and (-ms-high-contrast:none)
 {
-*::-ms-backdrop, #righttenscroll{ top:-195px;  } 
+*::-ms-backdrop, #righttenscroll{ top:-206px;  } 
 }
 @media all and (-ms-high-contrast:none)
 {
-*::-ms-backdrop, #rightfifteenscroll{ top:-541px;  } 
+*::-ms-backdrop, #rightfifteenscroll{ top:-552px;  } 
 }
 @media all and (-ms-high-contrast:none)
 {
-*::-ms-backdrop, #rightelevenscroll{ top:-195px;  } 
+*::-ms-backdrop, #rightelevenscroll{ top:-205px;  } 
 }
 @media all and (-ms-high-contrast:none)
 {
-*::-ms-backdrop, #rightetwelvescroll{ top:-195px; position: relative; } 
+*::-ms-backdrop, #rightetwelvescroll{ top:-205px; position: relative; } 
 }
 @media all and (-ms-high-contrast:none)
 {
-*::-ms-backdrop, #rightthirteenthscroll{ top:-197px;  } 
+*::-ms-backdrop, #rightthirteenthscroll{ top:-210px;  } 
 }
 @media all and (-ms-high-contrast:none)
 {
-*::-ms-backdrop, #rightfourteenthscroll{ top:-198px;position: relative;   } 
+*::-ms-backdrop, #rightfourteenthscroll{ top:-210px;position: relative;   } 
 }
 @-moz-document url-prefix() {
     .style {background: #F00;}
