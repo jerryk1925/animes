@@ -390,7 +390,7 @@ const instanceCartwo= new Tooltip(cartwo, {
   placement: 'bottom',
   title: "УГМК-Сталь организует комплексные поставки, используя железнодорожную сеть и автотранспорт Пачки прутков маркируются двумя пластиковыми ярлыками, содержащие следующую информацию: товарный знак и наименование предприятия изготовителя; НТД; номинальный размер, марку стали, номер плавки, длину порезки, вес пакета, номер пакета и дату производства. Упаковка производится в соответствии с ГОСТ 7566-94. "
 });
-if (document.body.clientWidth<=768){
+if (document.body.clientWidth<769){
   instance.updateTitleContent('Руда')
   instanceLrepeir.updateTitleContent('Линии отделки проката')
   instanceCartwo.updateTitleContent('Отгрузка')
@@ -411,7 +411,16 @@ if (document.body.clientWidth<=768){
   instanceV.updateTitleContent('Вакууматор')
   instanceVtwo.updateTitleContent('Вакууматор')
   instanceDspt.updateTitleContent('ДСП-70')
-}
+} 
+// if (document.body.clientWidth<769) {
+//   instanceLrepeir.updateTitleContent('Линии отделки проката')
+// }
+// if (document.body.clientWidth<769) {
+//   instanceCartwo.updateTitleContent('Отгрузка')
+// }
+// if (document.body.clientWidth<769) {
+//   instanceCar.updateTitleContent('Отгрузка')
+// }
 var factoryTimeline = anime.timeline({
   loop: false
 });
@@ -1150,3 +1159,125 @@ if (/iPhone|iPad|iPod/.test(navigator.platform) && !window.MSStream) {
 //     transform= getComputedStyle(g).getPropertyValue('transform');
 
 // g.setAttribute('transform', transform);
+$( document ).ready(function() {
+  $(window).on('resize', function(event){
+  var windowWidth = $(window).width();
+    if(windowWidth <769) {
+      instance.updateTitleContent('Руда')
+    } 
+  });
+  $(window).on('resize', function(event){
+  var windowWidth = $(window).width();
+    if(windowWidth <769) {
+      instanceLrepeir.updateTitleContent('Линии отделки проката')
+    } 
+  });
+  $(window).on('resize', function(event){
+  var windowWidth = $(window).width();
+    if(windowWidth <769) {
+      instanceCartwo.updateTitleContent('Отгрузка')
+    } 
+  });
+  $(window).on('resize', function(event){
+  var windowWidth = $(window).width();
+    if(windowWidth <769) {
+      instanceCar.updateTitleContent('Отгрузка')
+    } 
+  });
+  $(window).on('resize', function(event){
+  var windowWidth = $(window).width();
+    if(windowWidth <=768) {
+      instanceStanEight.updateTitleContent('стан 850')
+    } 
+  });
+  $(window).on('resize', function(event){
+  var windowWidth = $(window).width();
+    if(windowWidth <=768) {
+      instanceStanThree.updateTitleContent('стан 320')
+    } 
+  });
+  $(window).on('resize', function(event){
+  var windowWidth = $(window).width();
+    if(windowWidth <=768) {
+      instanceStan.updateTitleContent('стан 450')
+    } 
+  });
+  $(window).on('resize', function(event){
+  var windowWidth = $(window).width();
+    if(windowWidth <=768) {
+      instanceC.updateTitleContent('Калибровочный цех')
+    } 
+  });
+  $(window).on('resize', function(event){
+  var windowWidth = $(window).width();
+    if(windowWidth <=768) {
+      instanceI.updateTitleContent('Разливка в слитки')
+    } 
+  });
+  $(window).on('resize', function(event){
+  var windowWidth = $(window).width();
+    if(windowWidth <=768) {
+      instanceLom.updateTitleContent('Лом')
+    } 
+  });
+  $(window).on('resize', function(event){
+  var windowWidth = $(window).width();
+    if(windowWidth <=768) {
+      instanceFourtwo.updateTitleContent('Прокатный стан')
+    } 
+  });
+  $(window).on('resize', function(event){
+  var windowWidth = $(window).width();
+    if(windowWidth <=768) {
+      instanceMnls.updateTitleContent('МНЛЗ')
+    } 
+  });
+  $(window).on('resize', function(event){
+  var windowWidth = $(window).width();
+    if(windowWidth <=768) {
+      instanceF.updateTitleContent('Агломерационный цех')
+    } 
+  });
+  $(window).on('resize', function(event){
+  var windowWidth = $(window).width();
+    if(windowWidth <=768) {
+      instanceD.updateTitleContent('Доменный цех')
+    } 
+  });
+  $(window).on('resize', function(event){
+  var windowWidth = $(window).width();
+    if(windowWidth <=768) {
+      instanceB.updateTitleContent('Печь-ковш (АПК)')
+    } 
+  });
+  $(window).on('resize', function(event){
+  var windowWidth = $(window).width();
+    if(windowWidth <=768) {
+      instanceDsp.updateTitleContent('ДСП-80')
+    } 
+  });
+  $(window).on('resize', function(event){
+  var windowWidth = $(window).width();
+    if(windowWidth <=768) {
+      instanceBt.updateTitleContent('Печь-ковш (АПК)')
+    } 
+  });
+  $(window).on('resize', function(event){
+  var windowWidth = $(window).width();
+    if(windowWidth <=768) {
+      instanceV.updateTitleContent('Вакууматор')
+    }
+  });
+  $(window).on('resize', function(event){
+  var windowWidth = $(window).width();
+    if(windowWidth <=768) {
+      instanceVtwo.updateTitleContent('Вакууматор')
+    } 
+  });
+  $(window).on('resize', function(event){
+  var windowWidth = $(window).width();
+    if(windowWidth <=768) {
+      instanceDspt.updateTitleContent('ДСП-70')
+    }
+  });
+});
