@@ -411,16 +411,8 @@ if (document.body.clientWidth<769){
   instanceV.updateTitleContent('Вакууматор')
   instanceVtwo.updateTitleContent('Вакууматор')
   instanceDspt.updateTitleContent('ДСП-70')
-} 
-// if (document.body.clientWidth<769) {
-//   instanceLrepeir.updateTitleContent('Линии отделки проката')
-// }
-// if (document.body.clientWidth<769) {
-//   instanceCartwo.updateTitleContent('Отгрузка')
-// }
-// if (document.body.clientWidth<769) {
-//   instanceCar.updateTitleContent('Отгрузка')
-// }
+}
+
 var factoryTimeline = anime.timeline({
   loop: false
 });
