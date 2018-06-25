@@ -220,7 +220,7 @@ const instanceDsp= new Tooltip(dsp, {
 const instanceBt= new Tooltip(baketwo, {
   popperOptions: {
     positionFixed: true,
-    placement: 'bottom-end',
+    placement: 'bottom',
     modifiers: {
       flip: {
         enable: true
@@ -230,7 +230,7 @@ const instanceBt= new Tooltip(baketwo, {
       }
     }
   },
-  placement: 'bottom-end',
+  placement: 'bottom',
   title: "АКП (агрегат печь-ковш) служит для доведения полупродукта, выпущенного из ДСП-80 до заданной температуры и химического состава готовой стали, для последующей обработки на вакууматоре (при необходимости) и разливки на МНЛЗ. Емкость ковша – 80 т Годовой объем производства 750 000 т Время плавки 35-47 минут"
 });
 const instanceDspt= new Tooltip(dsptwo, {
